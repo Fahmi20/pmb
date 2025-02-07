@@ -1,0 +1,9 @@
+HIstory Update Database
+
+14 Juni 2023, Saiful, 15:59
+ALTER TABLE `pmb` CHANGE `Password` `Password` VARCHAR(40) CHARACTER SET latin1 COLLATE latin1_general_ci NULL DEFAULT NULL;
+
+
+16 Juni 2023, Saiful, 10:23
+ALTER TABLE `pmb` ADD `NomorKTP` VARCHAR(20) NULL DEFAULT NULL AFTER `TempatKuliahID`;
+ALTER TABLE `pmb` ADD `NomorKK` VARCHAR(20) NULL DEFAULT NULL AFTER `NomorKTP`;
